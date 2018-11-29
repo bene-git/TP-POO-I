@@ -1,0 +1,31 @@
+//private final ConexaoSqlite conexaoBanco;
+    
+    /*
+    public void criarTabelaProd(){
+        String sql = "CREATE TABLE IF NOT EXISTS tbl_produtos"
+                + "("
+                + "id text PRIMARY KEY,"
+                + "nome text NOT NULL,"
+                + "prec float,"
+                + "quant integer"
+                + ");";
+        
+        boolean conectou = false;
+        
+        try{
+            conectou = this.conexaoBanco.conectar();
+            
+            Statement stmt = this.conexaoBanco.criarTabela();
+            stmt.execute(sql);
+            
+            System.out.println("Tabela Criada");
+            
+        }catch(SQLException e){
+            System.out.println("NOT CREATE");
+        }finally{
+            if(conectou){
+                this.conexaoBanco.desconectar();
+            }
+        }
+    }
+    */
